@@ -1,0 +1,29 @@
+:root{
+  --white:#ffff;
+  --blue:#3366ff;
+  --page-name-color:#d2d3dc;
+  --backgraund-gray: #F2F4F7;
+  --title-black:#1d2351;
+  --paragraph-black:#353535;
+  --client-container:#e9e9e9;
+
+  --opensans-bold:'opensans-bold';
+  --opensans-bold-italic:'opensans-bolditalic';
+  --opensans-extrabold:'opensans-extrabold';
+  --opensans-extrabold-italic:'opensans-extrabolditalic';
+  --opensans-italic:'opensans-italic';
+  --opensans-ligth:'opensans-ligth';
+  --opensans-ligth-italic:'opensans-ligthitalic';
+  --opensans-medium:'opensans-medium';
+  --opensans-medium-italic:'opensans-mediumitalic';
+  --opensans-regular:'opensans-regular';
+  --opensans-semibold:'opensans-semibold';
+  --opensans-semibold-italic:'opensans-semibolditalic';
+
+  --gutter: 24px;
+  --desktop-breakpoint: 1024px;
+  --table-breakpoint-max: 1023px;
+  --table-breakpoint-min: 768px;
+  --mobile-breakpoint: 767px
+
+}

@@ -1,0 +1,33 @@
+@import "../../assets/css/style.css";
+
+.col {
+  width: 346px;
+  flex: none;
+}
+
+.card {
+  padding: 24px 32px;
+  gap: 24px;
+  width: 346px;
+  height: 406px;
+  border: none;
+}
+
+.card-body {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-title{
+  color: var(--title-black);
+}
+
+.card-link {
+  align-self: flex-end;
+  text-decoration: none;
+}
+
+.card-link:hover{
+  text-decoration: underline;
+}

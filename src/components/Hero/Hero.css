@@ -1,0 +1,63 @@
+@import "../../assets/css/style.css";
+
+.heroContainer {
+  padding: 0 200px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white);
+}
+
+.namePage {
+  font-size: 18px;
+  color: var(--page-name-color);
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gutter);
+}
+
+.title {
+  text-align: center;
+  padding: 0 48px;
+}
+
+.text {
+  text-align: center;
+  font-family: var(--opensans-semibold);
+  font-size: 18px;
+  line-height: 28px;
+}
+
+@media (min-width: 1024px) {
+  .itemContainer {
+    width: 70%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .heroContainer{
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .heroContainer {
+    padding: 0;
+  }
+  .namePage,
+  .text {
+    font-size: 14px;
+  }
+
+  .text {
+    padding: 0 28px;
+  }
+}

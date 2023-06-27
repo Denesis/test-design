@@ -1,0 +1,85 @@
+@import "./assets/css/style.css";
+
+.sectionContainer {
+  width: 100%;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gutter);
+  background-color: var(--backgraund-gray);
+}
+
+.titleSection {
+  padding: 0 48px;
+  text-align: center;
+  color: var(--title-black);
+}
+
+.textSection {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--paragraph-black);
+}
+
+.cardContainer {
+  gap: var(--gutter);
+  justify-content: center;
+}
+
+.sectionCarousel {
+  padding: 80px;
+  display: flex;
+  gap: var(--gutter);
+  align-items: center;
+  justify-content: center;
+}
+
+.carouselContainer {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.titleSectionCarousel {
+  color: var(--title-black);
+}
+
+.imageCarousel {
+  width: 470px;
+  height: 350px;
+  padding: var(--gutter);
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.btn {
+  width: 204px;
+  height: 55px;
+}
+
+@media (min-width: 1024px) {
+  .titleSection {
+    width: 50%;
+    padding: 0;
+  }
+  .textSection {
+    width: 65%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card {
+    width: auto;
+  }
+}
+
+@media (max-width: 767px) {
+}

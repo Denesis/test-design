@@ -1,0 +1,35 @@
+.itemContainerCarousel {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.carousel-indicators {
+  position: unset;
+  gap: 16px;
+  margin-left: 0;
+  justify-content: flex-start;
+}
+.carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border-top: 0;
+  border-bottom: 0;
+  border-radius: 5px;
+  background-color: var(--title-black);
+}
+
+.carousel {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  .sectionCarousel {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .buttonContainer {
+    justify-content: center;
+  }
+}
